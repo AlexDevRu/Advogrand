@@ -1,0 +1,76 @@
+.about {
+	background-size: cover;
+	background-position: center center;
+	background-image: url('../img/about.jpg');
+	text-align: center;
+	color: white;
+}
+
+.about_inner {
+	padding: 100px 70px;
+}
+
+.about_caption {
+	font-size: 30px;
+	margin-bottom: 75px;
+	font-family: 'ProximaNova Bold';
+}
+
+.about_description {
+	margin-bottom: 85px;
+	line-height: 20px;
+	padding: 0 50px;
+	font-size: 16px;
+}
+
+.about_numbers {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about_numbers_item_number {
+  font-size: 48px;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  margin-bottom: 28px;
+  font-family: 'ProximaNova Bold';
+}
+
+.about_numbers_item_text {
+	line-height: 22px;
+}
+
+.about_numbers_item_text_small {
+	font-size: 24px;
+}
+
+@media (max-width: 873px) {
+	.about_description {
+		padding: 0 20px;
+	}
+	
+	.about-inner {
+		padding: 50px 50px;
+	}
+
+	.about_numbers_item_number {
+		margin-bottom: 14px;
+	}
+}
+
+@media (max-width: 767px) {
+	.about_inner {
+		padding: 50px 0;
+	}
+	.about_numbers {
+		flex-wrap: wrap;
+	}
+	.about_numbers_item {
+		flex-basis: 50%;
+		margin-bottom: 20px;
+	}
+	.about_numbers_item_number {
+		margin-bottom: 0;
+	}
+}

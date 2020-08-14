@@ -1,0 +1,106 @@
+.comments {
+	padding: 100px 0;
+	background-color: #f5f5f5;
+}
+
+.comments_header {
+	font-size: 30px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+}
+
+.comments_tabs {
+	text-align: center;
+}
+
+/* Style the buttons */
+.tab button {
+	border: 2px solid transparent;
+	padding: 11px 12px;
+	font-size: 16px;
+	line-height: 1.5;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: 'ProximaNova Bold';
+    color: #313131;
+}
+/* Background color of buttons on hover */
+.tab button:hover {
+    color: #ff0000;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    border-color: #ff0000;
+    color: #ff0000;
+}
+/* Style the tab content */
+.comments_tabcontent {
+    display: none;
+    padding-top: 70px;
+    height: 100%;
+}
+
+.slider_item_preview:hover~.video_title {
+	text-decoration: underline;
+	color: #ff0000;
+}
+
+.video_title {
+	padding-top: 20px;
+	max-width: 300px;
+	text-align: left;
+}
+
+.video_title:hover {
+	text-decoration: underline;
+	color: #ff0000;
+}
+
+.slider_item_preview {
+	position: relative;
+}
+
+.slider_item_preview:before {
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	width: 300px;
+	height: 210px;
+	background-color: #313131;
+	opacity: 0.5;
+}
+
+.slider_item_preview:after {
+	position: absolute;
+	font-family: 'icomoon';
+	content: "\ea15";
+	font-size: 25px;
+	bottom: 20px;
+	left: 20px;
+	color: #fff;
+}
+
+@media(max-width: 652px) {
+	.comments {
+		padding: 50px 0;
+	}
+
+	.comments_header {
+		margin-bottom: 30px;
+	}
+
+	.tabcontent {
+		padding-top: 0;
+	}
+}

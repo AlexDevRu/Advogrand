@@ -1,0 +1,69 @@
+.application {
+	padding: 100px 0;
+	background-size: cover;
+	background-position: center center;
+	background-image: url('../img/application/background.jpg');
+}
+
+.application_instruction {
+	display: inline-block;
+	margin-right: 180px;
+	max-width: 530px;
+}
+
+.application_instruction .application_header {
+	color: white;
+	font-size: 30px;
+	letter-spacing: 2px;
+	margin-bottom: 75px;
+}
+
+.application_instruction ol{
+	counter-reset: myCounter;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+
+.application_instruction li{
+	list-style: none;
+	color: white;	
+	margin-left: 30px;
+	display: inline-block;
+	position: relative;
+}
+
+.application_instruction li+li{
+	margin-top: 20px;
+}
+
+.application_instruction li:before {
+	counter-increment: myCounter;
+	content:counter(myCounter) '.';
+	color: red;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: -30px;
+	line-height: 23px;
+}
+
+.application_links {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.application_links a {
+	display: block;
+}
+
+.application_links a:first-child {
+	margin-bottom: 15px;
+	margin-top: 85px;
+}
+
+@media (max-width: 767px) {
+	.application_instruction {
+		margin-right: 0;
+	}
+}

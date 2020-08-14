@@ -1,0 +1,36 @@
+body {
+	font-size: 14px;
+	font-family: 'ProximaNova Light', sans-serif;
+
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	color: #1c1c1c;
+}
+
+button {
+	outline: none;
+	border: none;
+}
+
+.bold {
+	font-family: 'ProximaNova Bold';
+}
+
+.extrabold {
+	font-family: 'ProximaNova Extrabold';
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+}

@@ -1,0 +1,69 @@
+/*=========================video========================*/
+#video_window {
+	padding: 32px 30px;
+}
+
+#video_title {
+	margin-bottom: 32px;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+#video_iframe {
+	margin: 0 auto;
+	height: 100%;
+  	width: 100%;
+  	margin-bottom: 30px;
+}
+
+#image_card {
+	width: 48px;
+	height: 30px;
+	margin-right: 30px;
+	vertical-align: bottom;
+}
+
+#text_card {
+	font-size: 16px;
+	line-height: 30px;
+	display: inline-block;
+}
+
+/*============================consultation==================*/
+
+#call_window {
+	padding: 30px 70px;
+}
+
+#call_window .call_window_header {
+	max-width: 305px;
+}
+
+#call_window .call_button {
+	margin: 0 auto;
+}
+
+/*======================call=============================*/
+
+#consultation_window {	
+	padding: 30px 70px;
+}
+
+#consultation_window .call_button {
+	margin: 0 auto;
+}
+
+#consultation_window .consultation_window_header {
+	max-width: 305px;
+}
+
+
+
+
+
+
+@media(max-width: 425px) {
+	#call_window, #consultation_window {
+	    padding: 30px 10px;
+	}
+}
