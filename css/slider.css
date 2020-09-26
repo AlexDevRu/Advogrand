@@ -1,3 +1,7 @@
+.slick-dots button {
+  font-size: 0;
+}
+
 .slider_comments {
   position: relative;
   margin: 0 auto;
