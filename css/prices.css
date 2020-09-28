@@ -101,6 +101,7 @@
 	font-size: 18px;
 	line-height: 40px;
 	cursor: pointer;
+	transition: all 0.3s ease-out;
 }
 
 .base_price_button+.base_price_button {
@@ -111,25 +112,35 @@
 	background-color: #9a9a9a;
 }
 
+.buy_button:hover {
+	background-color: #6c6c6c;
+}
+
 .consultation_button1 {
-	background-image: -webkit-linear-gradient(left, rgb(255,46,0) 0%, rgb(255,76,37) 100%);
-	background-image: -o-linear-gradient(left, rgb(255,46,0) 0%, rgb(255,76,37) 100%);
-	background-image: linear-gradient(to right, rgb(255,46,0) 0%, rgb(255,76,37) 100%);
+	background: linear-gradient(to right, rgb(255,46,0) 0%, rgb(255,76,37) 100%);
+}
+
+.consultation_button1:hover {
+	background: linear-gradient(to right, rgb(192, 35, 0) 0%, rgb(230, 69, 34) 100%);
 }
 
 .consultation_button2 {
-	background-image: -moz-linear-gradient( 90deg, rgb(0,142,0) 0%, rgb(0,163,0) 100%);
-	background-image: -webkit-linear-gradient( 90deg, rgb(0,142,0) 0%, rgb(0,163,0) 100%);
-	background-image: -ms-linear-gradient( 90deg, rgb(0,142,0) 0%, rgb(0,163,0) 100%);
+	background: linear-gradient(to right, rgb(0,142,0) 0%, rgb(0,163,0) 100%);
+}
+
+.consultation_button2:hover {
+	background: linear-gradient(to right, rgb(0,120,0) 0%, rgb(0,140,0) 100%);
 }
 
 .consultation_button3 {
-	background-image: -webkit-linear-gradient(left, rgb(0,28,103) 0%, rgb(2,56,143) 100%);
-	background-image: -o-linear-gradient(left, rgb(0,28,103) 0%, rgb(2,56,143) 100%);
-	background-image: linear-gradient(to right, rgb(0,28,103) 0%, rgb(2,56,143) 100%);
+	background: linear-gradient(to right, rgb(0,28,103) 0%, rgb(2,56,143) 100%);
 }
 
-@media(max-width: 767px) {/*689*/
+.consultation_button3:hover {
+	background: linear-gradient(to right, rgb(0,15,55) 0%, rgb(0,40,104) 100%);
+}
+
+@media(max-width: 767px) {
 	.prices {
 		padding: 50px 0 50px 0;
 		background-color: #f5f5f5;

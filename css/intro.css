@@ -18,6 +18,11 @@
 	background: linear-gradient(#e42626, #c20b0b);
 	border-radius: 5px;
 	font-size: 18px;
+	transition: all 0.3s ease-out;
+}
+
+.base_button:hover {
+	background: linear-gradient(#d92525, #990909);
 }
 
 .intro_button {

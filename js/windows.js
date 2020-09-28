@@ -1,3 +1,5 @@
+var $= jQuery.noConflict();
+
 $("[data-videolink]").fancybox({
     beforeLoad: function(instance, slide) {
     	var video_id = slide.opts.$orig.data('video_id');
