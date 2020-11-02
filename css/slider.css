@@ -80,6 +80,6 @@
   background: #ff0000;
 }
 
-.slick-slide a:focus {
+.slick-slide a {
   outline: none;
 }
